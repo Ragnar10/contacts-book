@@ -1,0 +1,34 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid #333;
+    background-color: #fff;
+}
+.contact-container div {
+    width: 70%;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    font-size: 2rem;
+    text-align: center;
+}
+.back {
+    display: block;
+    width: 20%;
+    margin: 20px;
+    padding: 2px 5px;
+    background-color: chartreuse;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px #000;
+    outline: none;
+}
+.back:active {
+    box-shadow: none;
+}

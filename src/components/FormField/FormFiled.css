@@ -1,0 +1,51 @@
+.form-field {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+    border: 1px solid #333;
+    box-shadow: 0 2px 5px #000;
+    padding: 10px;
+    background-color: azure;
+}
+.hide {
+    display: none;
+}
+
+.input-wrap {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.input-wrap label {
+    display: block;
+    width: 100px;
+    margin-right: 30px;
+    font-size: 1.5rem;
+}
+.input-wrap input {
+    width: calc(100% - 130px);
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    border-radius: 7px;
+    border: 1px solid #777;
+    outline: none;
+}
+.form-field button {
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 1px 2px #000;
+    outline: none;
+}
+.form-field button:active {
+    box-shadow: none;
+}
+.add-btn {
+    width: 100px;
+    background-color: chartreuse;
+    color: white;
+}

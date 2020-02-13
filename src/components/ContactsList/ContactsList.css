@@ -1,0 +1,57 @@
+.table-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    box-shadow: 0 2px 5px #000;
+    margin-bottom: 20px;
+}
+.table tr, th, td {
+    border-bottom: 1px solid #333;
+    padding: 7px;
+    text-align: center;
+}
+.table th {
+    border: 1px solid #333;
+}
+.table th {
+    font-size: 1.5rem;
+    background-color: cadetblue;
+}
+.table td {
+    cursor: pointer;
+    background-color: azure;
+}
+.table-wrap button {
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 1px 2px #000;
+    outline: none;
+}
+.table-wrap button:active {
+    box-shadow: none;
+}
+.delete-btn {
+    width: 100%;
+    background-color: coral;
+    color: white;
+}
+.table-wrap .add-btn {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: chartreuse;
+    color: white;
+}
+.table-wrap .edit-btn {
+    width: 100%;
+    background-color: chartreuse;
+    color: white;
+}
